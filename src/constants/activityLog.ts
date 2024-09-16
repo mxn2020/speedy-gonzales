@@ -1,0 +1,16 @@
+export const ACTIVITY_ACTIONS = {
+  USER_LOGIN: 'User logged in',
+  LOGIN_FAILED: 'Failed login attempt',
+  REGISTER_FAILED: 'Failed registration attempt',
+  USER_REGISTER: 'User registered',
+  FORGOT_PASSWORD_FAILED: 'Failed forgot password attempt',
+  FORGOT_PASSWORD: 'Forgot password email sent',
+  RESET_PASSWORD_FAILED: 'Failed password reset attempt',
+  RESET_PASSWORD: 'Password reset',
+  EMAIL_VERIFIED: 'Email verified',
+  EMAIL_VERIFICATION_FAILED: 'Failed email verification attempt',
+  WAITLIST_FAILED: 'Failed waitlist registration attempt',
+  WAITLIST_JOINED: 'Waitlist registration',
+  TWO_FACTOR_AUTH: 'Two-factor authentication code sent',
+  TWO_FACTOR_AUTH_FAILED: 'Failed two-factor authentication attempt',
+} 

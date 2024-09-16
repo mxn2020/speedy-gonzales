@@ -16,7 +16,7 @@ import { useLanguageSwitch } from '@/hooks/useLanguageSwitch'
 import { useThemeSwitch } from '@/hooks/useThemeSwitch'
 import { ThemeSelector } from '../common/ThemeSelector'
 import { ThemeToggle } from '../common/ThemeToggle'
-import { supabase } from '@/lib/supabaseClient'
+import { supabase } from '@/lib/supabaseBrowserClient'
 import { Session } from '@supabase/supabase-js'
 
 const languageNames: Record<Locale, string> = {
@@ -52,30 +52,24 @@ export default function Header({ dict, locale, locales }: HeaderProps) {
   const [session, setSession] = useState<Session | null>(null)
 
   useEffect(() => {
-    console.log('[Header] Component mounted');
     supabase.auth.getSession().then(({ data: { session } }) => {
-      console.log('[Header] Initial session:', session ? 'Authenticated' : 'Not authenticated');
       setSession(session)
     })
 
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange((_event, session) => {
-      console.log('[Header] Auth state changed:', _event, session ? 'Authenticated' : 'Not authenticated');
       setSession(session)
     })
 
     return () => {
-      console.log('[Header] Unsubscribing from auth state changes');
       subscription.unsubscribe()
     }
   }, [])
 
   const handleLogout = async () => {
-    console.log('[Header] Logout initiated');
     await supabase.auth.signOut()
     setSession(null)
-    console.log('[Header] Logged out, session cleared');
     window.location.href = `/${locale}`
   }
   

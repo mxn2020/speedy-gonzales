@@ -20,6 +20,8 @@ import { Checkbox } from '../ui/checkbox';
 import { Alert, AlertDescription } from '../ui/alert';
 import { Progress } from '../ui/progress';
 import { createBrowserClient } from '@supabase/ssr'
+import { logActivity } from '@/lib/activityLogger'
+import { ACTIVITY_ACTIONS } from '@/constants/activityLog'
 
 const supabase = createBrowserClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!, 
@@ -136,13 +138,16 @@ export function LoginPage({ dict, isRTL, lang, locales }: AuthPageProps) {
     setError('')
     if (!validateEmail(email)) {
       setError(dict.login.invalidEmail)
+      await logActivity(ACTIVITY_ACTIONS.LOGIN_FAILED)
       return
     }
     try {
       const { error } = await supabase.auth.signInWithPassword({ email, password })
       if (error) throw error
+      await logActivity(ACTIVITY_ACTIONS.USER_LOGIN)
       router.push(`/${lang}/dashboard`)
     } catch (error: any) {
+      await logActivity(ACTIVITY_ACTIONS.LOGIN_FAILED)
       setError(error.message || dict.login.genericError)
     }
   }
@@ -265,14 +270,17 @@ export function RegisterPage({ dict, isRTL, lang, locales }: AuthPageProps) {
     setError('')
     if (!validateEmail(email)) {
       setError(dict.register.invalidEmail)
+      await logActivity(ACTIVITY_ACTIONS.REGISTER_FAILED)
       return
     }
     if (password !== confirmPassword) {
       setError(dict.register.passwordMismatch)
+      await logActivity(ACTIVITY_ACTIONS.REGISTER_FAILED)
       return
     }
     if (!agreeTerms) {
       setError(dict.register.agreeTerms)
+      await logActivity(ACTIVITY_ACTIONS.REGISTER_FAILED)
       return
     }
     try {
@@ -294,9 +302,11 @@ export function RegisterPage({ dict, isRTL, lang, locales }: AuthPageProps) {
           username: email.split('@')[0] // Simple username generation
         })
       }
+      await logActivity(ACTIVITY_ACTIONS.USER_REGISTER)
       router.push(`/${lang}/auth/verify-email`)
     } catch (error: any) {
       setError(error.message || dict.register.genericError)
+      await logActivity(ACTIVITY_ACTIONS.REGISTER_FAILED)
     }
   }
 
@@ -442,13 +452,16 @@ export function ForgotPasswordPage({ dict, isRTL, lang, locales }: AuthPageProps
     setError('')
     if (!validateEmail(email)) {
       setError(dict.forgotPassword.invalidEmail)
+      await logActivity(ACTIVITY_ACTIONS.FORGOT_PASSWORD_FAILED)
       return
     }
     try {
       const { error } = await supabase.auth.resetPasswordForEmail(email)
       if (error) throw error
+      await logActivity(ACTIVITY_ACTIONS.FORGOT_PASSWORD)
       setSuccess(true)
     } catch (error: any) {
+      await logActivity(ACTIVITY_ACTIONS.FORGOT_PASSWORD_FAILED)
       setError(error.message || dict.forgotPassword.genericError)
     }
   }
@@ -529,14 +542,17 @@ export function ResetPasswordPage({ dict, isRTL, lang, locales }: AuthPageProps)
     setError('')
     if (newPassword !== confirmPassword) {
       setError(dict.resetPassword.passwordMismatch)
+      await logActivity(ACTIVITY_ACTIONS.RESET_PASSWORD_FAILED)
       return
     }
     try {
       const { error } = await supabase.auth.updateUser({ password: newPassword })
       if (error) throw error
+      await logActivity(ACTIVITY_ACTIONS.RESET_PASSWORD)
       setSuccess(true)
     } catch (error: any) {
       setError(error.message || dict.resetPassword.genericError)
+      await logActivity(ACTIVITY_ACTIONS.RESET_PASSWORD_FAILED)
     }
   }
 
@@ -642,19 +658,33 @@ export function WaitlistPage({ dict, isRTL, lang, locales }: AuthPageProps) {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     setError('')
+  
+    const logActivityAsync = (action: string) => {
+      logActivity(action).catch(error => {
+        console.error('Failed to log activity:', error)
+      })
+    }
+  
     if (!validateEmail(email)) {
       setError(dict.waitlist.invalidEmail)
+      logActivityAsync(ACTIVITY_ACTIONS.WAITLIST_FAILED)
       return
     }
+  
     if (!agreeTerms) {
       setError(dict.waitlist.agreeTerms)
+      logActivityAsync(ACTIVITY_ACTIONS.WAITLIST_FAILED)
       return
     }
+  
     // Here you would typically send the email to your backend
     console.log('Submitted email:', email)
+  
     // Simulate getting a waitlist position
     setWaitlistPosition(Math.floor(Math.random() * 1000) + 1)
     setIsSubmitted(true)
+  
+    logActivityAsync(ACTIVITY_ACTIONS.WAITLIST_JOINED)
   }
 
   return (
@@ -737,15 +767,16 @@ export function VerifyEmailPage({ dict, isRTL, lang }: AuthPageProps) {
         const { data: { user } } = await supabase.auth.getUser()
         if (user?.email_confirmed_at) {
           setIsVerified(true)
+          await logActivity(ACTIVITY_ACTIONS.EMAIL_VERIFIED)
         }
       } catch (error: any) {
         setError(error.message || dict.verifyEmail.genericError)
+        await logActivity(ACTIVITY_ACTIONS.EMAIL_VERIFICATION_FAILED)
       }
     }
 
     checkEmailVerification()
     const interval = setInterval(checkEmailVerification, 5000) // Check every 5 seconds
-
     return () => clearInterval(interval)
   }, [])
 
@@ -798,15 +829,18 @@ export function TwoFactorAuthPage({ dict, isRTL, lang }: AuthPageProps) {
     setError('')
     if (code.length !== 6) {
       setError(dict.twoFactorAuth.invalidCode)
+      await logActivity(ACTIVITY_ACTIONS.TWO_FACTOR_AUTH_FAILED)
       return
     }
     try {
       // Note: Supabase doesn't have built-in 2FA. You'd need to implement this yourself or use a third-party service.
       // This is a placeholder for where you'd verify the 2FA code
       console.log('Verifying 2FA code:', code)
+      await logActivity(ACTIVITY_ACTIONS.TWO_FACTOR_AUTH)
       router.push(`/${lang}/dashboard`)
     } catch (error: any) {
       setError(error.message || dict.twoFactorAuth.genericError)
+      await logActivity(ACTIVITY_ACTIONS.TWO_FACTOR_AUTH_FAILED)
     }
   }
 

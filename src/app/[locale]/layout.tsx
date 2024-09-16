@@ -19,8 +19,6 @@ export default async function LocaleLayout({
   // Retrieve messages
   const messages = await getMessages();
 
-  //console.log('messages', messages);
-
   if (!messages) {
     notFound();
   }
