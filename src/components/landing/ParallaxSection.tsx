@@ -20,11 +20,18 @@ export default function ParallaxSection({ dict, isRTL }: ParallaxSectionProps) {
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "100%"])
 
   return (
-    <section ref={ref} className={`relative h-[50vh] overflow-hidden ${isRTL ? 'rtl' : 'ltr'}`}>
+    <section ref={ref} className={`relative h-[70vh] overflow-hidden ${isRTL ? 'rtl' : 'ltr'}`}>
       <motion.div
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-center mb-40"
         style={{
-          backgroundImage: `url("${dict.backgroundImage}")`,
+          backgroundImage: `url("/placeholder.svg")`,
+          y
+        }}
+      />
+      <motion.div
+        className="absolute inset-20 bg-cover bg-center mb-96"
+        style={{
+          backgroundImage: `url("/placeholder.svg")`,
           y
         }}
       />

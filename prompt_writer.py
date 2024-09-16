@@ -2,7 +2,7 @@ import os
 
 # Exclusions
 excluded_filenames = ['example.txt', 'ignoreme.md', 'tag-manager.tsx', '.DS_Store','prompt.json','prompt2.json','prompt2 implementation.json', 'directory_contents.md', 'directory_contents copy.md']  # filenames to exclude
-excluded_folders = ['node_modules', 'test_directory','.DS_Store','data','prompt-settings-', 'response', 'exercise-form']  # folders to exclude
+excluded_folders = ['node_modules', './node_modules', './next', 'test_directory','.DS_Store','data','prompt-settings-', 'response', 'exercise-form', 'public', '.git']  # folders to exclude
 excluded_prefixes = ['temp', 'backup_', 'team-account']  # file prefixes to exclude
 excluded_types = ['.jsx', '.temp']  # file extensions to exclude
 
@@ -75,18 +75,21 @@ for root, dirs, filenames in os.walk('.'):
     for filename in filenames:
         file_path = os.path.join(root, filename)
         if not should_exclude(file_path, filename):
+            print(file_path)
+            #input("Press Enter to continue...")
             files.append(file_path)
 
 # Add the folder structure to the user-defined content
 for folder, filenames in folder_structure.items():
-    user_defined_content['Current Section File and Folder Structure'].append(f"{folder}/")
-    for index, filename in enumerate(filenames):
-        if index == len(filenames) - 1:
-            if filename not in excluded_filenames:
-                user_defined_content['Current Section File and Folder Structure'].append(f"└-- {filename}")
-        else:
-            if filename not in excluded_filenames:
-                user_defined_content['Current Section File and Folder Structure'].append(f"├-- {filename}")
+    if not should_exclude(folder, ""):
+        user_defined_content['Current Section File and Folder Structure'].append(f"{folder}/")
+        for index, filename in enumerate(filenames):
+            if index == len(filenames) - 1:
+                if filename not in excluded_filenames:
+                    user_defined_content['Current Section File and Folder Structure'].append(f"└-- {filename}")
+            else:
+                if filename not in excluded_filenames:
+                    user_defined_content['Current Section File and Folder Structure'].append(f"├-- {filename}")
 
 with open(output_filename, 'w') as output_file:
     # Write the user-defined content first

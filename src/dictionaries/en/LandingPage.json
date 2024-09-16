@@ -11,6 +11,8 @@
     "contact": "Contact",
     "login": "Log in",
     "signup": "Sign up",
+    "logout": "Log out",
+    "waitlist": "Join Waitlist",
     "lightMode": "Light Mode",
     "darkMode": "Dark Mode"
   },

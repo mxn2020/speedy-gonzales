@@ -18,7 +18,7 @@ export default getRequestConfig(async ({ locale }) => {
   if (!routing.locales.includes(locale)) notFound();
 
   // Define the pages/components you have translations for
-  const pages = ['LandingPage', 'Auth'];
+  const pages = ['LandingPage', 'Auth', 'Dashboard', 'Profile', 'Admin'];
 
   // Initialize messages object
   const messages: Record<string, any> = {};

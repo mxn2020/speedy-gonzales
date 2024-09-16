@@ -128,7 +128,7 @@ export default function LandingPage({ dict, locale }: LandingPageProps) {
           <CTASection dict={dict.cta} isRTL={isRTL} />
         </motion.section>
         <motion.section variants={sectionVariants} initial="hidden" whileInView="visible" viewport={{ once: true }}>
-          <ContactSection dict={dict.contact} isRTL={isRTL} />
+          <ContactSection id="contact" dict={dict.contact} isRTL={isRTL} />
         </motion.section>
       </motion.main>
       <Footer dict={dict.footer} isRTL={isRTL} />

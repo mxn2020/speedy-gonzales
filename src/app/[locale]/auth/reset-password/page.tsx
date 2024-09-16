@@ -9,8 +9,11 @@ export default function Page({ params: { locale } }: { params: { locale: Locale 
         register: t.raw('register') as any,
         forgotPassword: t.raw('forgotPassword') as any,
         resetPassword: t.raw('resetPassword') as any,
+        waitlist: t.raw('waitlist') as any,
     }
     const isRTL = locale === 'ar' || locale === 'fa'
+    const locales = ['ar', 'de', 'en', 'es', 'fa', 'fr', 'it', 'ja', 'ko', 'pt', 'ru', 'tr', 'zh'] as Locale[];
 
-    return <ResetPasswordPage dict={dict} isRTL={isRTL} lang={locale} />
+    return <ResetPasswordPage dict={dict} isRTL={isRTL} lang={locale} locales={locales} />
+
 }

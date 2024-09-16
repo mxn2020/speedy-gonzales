@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import { RegisterPage } from '@/components/auth/AuthComponents'
+import { WaitlistPage } from '@/components/auth/AuthComponents'
 import { Locale } from '@/types'
 
 export default function Page({ params: { locale } }: { params: { locale: Locale } }) {
@@ -14,6 +14,6 @@ export default function Page({ params: { locale } }: { params: { locale: Locale 
     const isRTL = locale === 'ar' || locale === 'fa'
     const locales = ['ar', 'de', 'en', 'es', 'fa', 'fr', 'it', 'ja', 'ko', 'pt', 'ru', 'tr', 'zh'] as Locale[];
 
-    return <RegisterPage dict={dict} isRTL={isRTL} lang={locale} locales={locales} />
+    return <WaitlistPage dict={dict} isRTL={isRTL} lang={locale} locales={locales} />
 
 }
