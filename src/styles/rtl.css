@@ -1,0 +1,10 @@
+/* RTL specific styles */
+[dir="rtl"] {
+    text-align: right;
+  }
+  
+  [dir="rtl"] .reverse-flex {
+    flex-direction: row-reverse;
+  }
+  
+  /* Add more RTL-specific styles as needed */

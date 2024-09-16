@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "title": "SaaS企業",
+    "description": "当社のSaaSソリューションでチームを強化"
+  },
+  "header": {
+    "company": "SaaS企業",
+    "features": "特徴",
+    "pricing": "価格",
+    "testimonials": "お客様の声",
+    "contact": "お問い合わせ",
+    "login": "ログイン",
+    "signup": "サインアップ",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード"
+  },
+  "hero": {
+    "title": "当社のSaaSソリューションでチームを強化",
+    "description": "ワークフローを効率化し、生産性を向上させ、革新的なプラットフォームでさらなる成果を達成。",
+    "cta": "始める"
+  },
+  "features": {
+    "title": "当社の特徴",
+    "lightning": {
+      "title": "超高速",
+      "description": "ワークフローで比類なきスピードと効率を体験してください。"
+    },
+    "secure": {
+      "title": "セキュア",
+      "description": "データは最先端のセキュリティ対策で保護されています。"
+    },
+    "analytics": {
+      "title": "分析",
+      "description": "強力な分析ツールで価値あるインサイトを得る。"
+    },
+    "filter": {
+      "all": "すべての特徴",
+      "productivity": "生産性",
+      "security": "セキュリティ",
+      "analytics": "分析"
+    }
+  },
+  "howItWorks": {
+    "title": "仕組み",
+    "step1": {
+      "title": "サインアップ",
+      "description": "数分でアカウントを作成"
+    },
+    "step2": {
+      "title": "チームを招待",
+      "description": "同僚とコラボレーション"
+    },
+    "step3": {
+      "title": "分析を開始",
+      "description": "データからインサイトを得る"
+    }
+  },
+  "pricing": {
+    "title": "プランを選択",
+    "subtitle": "ニーズに合わせた最適なプランを選択",
+    "monthly": "月額",
+    "annually": "年額",
+    "options": [
+      {
+        "title": "無料",
+        "price": {
+          "monthly": 0,
+          "annually": 0
+        },
+        "features": [
+          "基本機能",
+          "最大5ユーザー",
+          "1GBストレージ"
+        ],
+        "cta": "始める"
+      },
+      {
+        "title": "スターター",
+        "price": {
+          "monthly": 29,
+          "annually": 290
+        },
+        "features": [
+          "すべての無料機能",
+          "最大20ユーザー",
+          "10GBストレージ",
+          "優先サポート"
+        ],
+        "cta": "始める"
+      },
+      {
+        "title": "プロ",
+        "price": {
+          "monthly": 99,
+          "annually": 990
+        },
+        "features": [
+          "すべてのスターター機能",
+          "無制限ユーザー",
+          "100GBストレージ",
+          "高度な分析",
+          "24/7サポート"
+        ],
+        "cta": "始める"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "お客様の声",
+    "testimonial1": {
+      "quote": "このSaaSは私たちのチームの生産性を大きく向上させました！",
+      "name": "ジェーン・ドウ",
+      "company": "テックコ"
+    },
+    "testimonial2": {
+      "quote": "機能は私たちのワークフローにぴったりです。",
+      "name": "ジョン・スミス",
+      "company": "スタートアップインク"
+    },
+    "testimonial3": {
+      "quote": "カスタマーサポートは素晴らしいです。非常にお勧めします！",
+      "name": "エミリー・ブラウン",
+      "company": "エージェンシー株式会社"
+    }
+  },
+  "faq": {
+    "title": "よくある質問",
+    "question1": {
+      "question": "SaaS企業とは？",
+      "answer": "SaaS企業は、クラウドベースのソフトウェアソリューションで、ビジネスの運用を効率化し、コラボレーションを向上させ、生産性を向上させるのに役立ちます。"
+    },
+    "question2": {
+      "question": "料金体系はどうなっていますか？",
+      "answer": "私たちは、あらゆる規模の企業に適した柔軟な料金プランを提供しています。プランは、必要なユーザー数と機能に基づいています。詳細については、料金ページをご覧ください。"
+    },
+    "question3": {
+      "question": "無料トライアルはありますか？",
+      "answer": "はい、すべてのプランに14日間の無料トライアルを提供しています。トライアルを開始するためにクレジットカードは必要ありません。"
+    },
+    "question4": {
+      "question": "データの安全性はどのくらいですか？",
+      "answer": "データのセキュリティを非常に重視しています。データを常に保護するために、業界標準の暗号化とセキュリティプロトコルを使用しています。"
+    },
+    "question5": {
+      "question": "いつでもサブスクリプションをキャンセルできますか？",
+      "answer": "はい、いつでもサブスクリプションをキャンセルできます。長期契約やキャンセル料はありません。"
+    }
+  },
+  "blog": {
+    "title": "最新のブログ記事",
+    "viewAll": "すべての記事を見る",
+    "readMore": "続きを読む",
+    "post1": {
+      "title": "チームの生産性を向上させる10のヒント",
+      "excerpt": "これらの実証済みの戦略でチームの効率を向上させる方法を学びましょう。",
+      "date": "2023年5月15日"
+    },
+    "post2": {
+      "title": "リモートワークの未来：注目すべきトレンド",
+      "excerpt": "リモートワークの未来を形作る新たなトレンドをご紹介します。",
+      "date": "2023年6月2日"
+    },
+    "post3": {
+      "title": "ビジネス成長のためのデータ分析のマスター",
+      "excerpt": "データ分析がどのようにビジネスを前進させるかを探ります。",
+      "date": "2023年6月18日"
+    },
+    "search": {
+      "placeholder": "ブログ記事を検索...",
+      "button": "検索"
+    }
+  },
+  "newsletter": {
+    "title": "最新情報をお届けします",
+    "description": "最新のアップデート、ヒント、お得な情報を受け取るためにニュースレターにご登録ください。",
+    "placeholder": "メールアドレスを入力",
+    "cta": "登録する"
+  },
+  "cta": {
+    "title": "準備はできましたか？",
+    "description": "数千人の満足したユーザーに参加して、生産性を次のレベルに引き上げましょう。",
+    "cta": "今すぐ登録"
+  },
+  "footer": {
+    "saascompany": "SaaS企業",
+    "description": "革新的なSaaSソリューションで、チームがより多くのことを達成できるように支援します。",
+    "product": "製品",
+    "company": "企業",
+    "subscribeTitle": "ニュースレターに登録",
+    "subscribePlaceholder": "メールアドレスを入力",
+    "subscribeCta": "登録する",
+    "copyright": "© 2023 SaaS企業。全著作権所有。"
+  },
+  "chat": {
+    "title": "カスタマーサポート",
+    "placeholder": "メッセージを入力してください...",
+    "defaultMessage": "今日はどのようにお手伝いできますか？"
+  },
+  "backToTop": {
+    "ariaLabel": "トップに戻る"
+  },
+  "cookieConsent": {
+    "message": "このウェブサイトは、ウェブサイトで最高の体験を確保するためにクッキーを使用しています。",
+    "accept": "同意する",
+    "decline": "拒否する"
+  },
+  "parallax": {
+    "title": "仕事の未来を体験",
+    "description": "当社のSaaSソリューションは、あなたのワークフローを変革するために設計されています",
+    "backgroundImage": "/parallax-background.jpg"
+  },
+  "progressBar": {
+    "ariaLabel": "ページスクロールの進捗"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "私たちはここにいます",
+    "name": "名前",
+    "email": "メール",
+    "message": "メッセージ",
+    "submit": "送信",
+    "success": "お問い合わせいただきありがとうございます！すぐにご連絡いたします。",
+    "error":  "エラーが発生しました。もう一度お試しください。"
+  }
+}

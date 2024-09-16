@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "title": "SaaS-Unternehmen",
+    "description": "Stärken Sie Ihr Team mit unserer SaaS-Lösung"
+  },
+  "header": {
+    "company": "SaaS-Unternehmen",
+    "features": "Funktionen",
+    "pricing": "Preise",
+    "testimonials": "Referenzen",
+    "contact": "Kontakt",
+    "login": "Anmelden",
+    "signup": "Registrieren",
+    "lightMode": "Lichtmodus",
+    "darkMode": "Dunkelmodus"
+  },
+  "hero": {
+    "title": "Stärken Sie Ihr Team mit unserer SaaS-Lösung",
+    "description": "Optimieren Sie Ihren Arbeitsablauf, steigern Sie die Produktivität und erreichen Sie mehr mit unserer innovativen Plattform.",
+    "cta": "Jetzt starten"
+  },
+  "features": {
+    "title": "Unsere Funktionen",
+    "lightning": {
+      "title": "Blitzschnell",
+      "description": "Erleben Sie unvergleichliche Geschwindigkeit und Effizienz in Ihrem Arbeitsablauf."
+    },
+    "secure": {
+      "title": "Sicher",
+      "description": "Ihre Daten sind mit modernsten Sicherheitsmaßnahmen geschützt."
+    },
+    "analytics": {
+      "title": "Analysen",
+      "description": "Gewinnen Sie wertvolle Einblicke mit unseren leistungsstarken Analysetools."
+    },
+    "filter": {
+      "all": "Alle Funktionen",
+      "productivity": "Produktivität",
+      "security": "Sicherheit",
+      "analytics": "Analysen"
+    }
+  },
+  "howItWorks": {
+    "title": "Wie es funktioniert",
+    "step1": {
+      "title": "Registrieren",
+      "description": "Erstellen Sie Ihr Konto in wenigen Minuten"
+    },
+    "step2": {
+      "title": "Laden Sie Ihr Team ein",
+      "description": "Arbeiten Sie mit Ihren Kollegen zusammen"
+    },
+    "step3": {
+      "title": "Beginnen Sie mit der Analyse",
+      "description": "Gewinnen Sie Einblicke aus Ihren Daten"
+    }
+  },
+  "pricing": {
+    "title": "Wählen Sie Ihren Plan",
+    "subtitle": "Wählen Sie den perfekten Plan für Ihre Bedürfnisse",
+    "monthly": "Monatlich",
+    "annually": "Jährlich",
+    "options": [
+      {
+        "title": "Kostenlos",
+        "price": {
+          "monthly": 0,
+          "annually": 0
+        },
+        "features": [
+          "Grundfunktionen",
+          "Bis zu 5 Benutzer",
+          "1GB Speicherplatz"
+        ],
+        "cta": "Jetzt starten"
+      },
+      {
+        "title": "Starter",
+        "price": {
+          "monthly": 29,
+          "annually": 290
+        },
+        "features": [
+          "Alle kostenlosen Funktionen",
+          "Bis zu 20 Benutzer",
+          "10GB Speicherplatz",
+          "Priorisierter Support"
+        ],
+        "cta": "Jetzt starten"
+      },
+      {
+        "title": "Pro",
+        "price": {
+          "monthly": 99,
+          "annually": 990
+        },
+        "features": [
+          "Alle Starter-Funktionen",
+          "Unbegrenzte Benutzer",
+          "100GB Speicherplatz",
+          "Erweiterte Analysen",
+          "24/7 Support"
+        ],
+        "cta": "Jetzt starten"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Was unsere Kunden sagen",
+    "testimonial1": {
+      "quote": "Diese SaaS hat die Produktivität unseres Teams transformiert!",
+      "name": "Jane Doe",
+      "company": "Tech Co"
+    },
+    "testimonial2": {
+      "quote": "Die Funktionen sind genau das, was wir für unseren Arbeitsablauf brauchten.",
+      "name": "John Smith",
+      "company": "Startup Inc"
+    },
+    "testimonial3": {
+      "quote": "Der Kundensupport ist erstklassig. Sehr empfehlenswert!",
+      "name": "Emily Brown",
+      "company": "Agentur GmbH"
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "question1": {
+      "question": "Was ist SaaS-Unternehmen?",
+      "answer": "SaaS-Unternehmen ist eine cloudbasierte Softwarelösung, die Unternehmen dabei hilft, ihre Abläufe zu optimieren, die Zusammenarbeit zu verbessern und die Produktivität zu steigern."
+    },
+    "question2": {
+      "question": "Wie funktioniert die Preisgestaltung?",
+      "answer": "Wir bieten flexible Preispläne für Unternehmen jeder Größe. Unsere Pläne basieren auf der Anzahl der Benutzer und den benötigten Funktionen. Weitere Details finden Sie auf unserer Preisseite."
+    },
+    "question3": {
+      "question": "Gibt es eine kostenlose Testversion?",
+      "answer": "Ja, wir bieten eine 14-tägige kostenlose Testversion für alle unsere Pläne an. Eine Kreditkarte ist nicht erforderlich, um die Testversion zu starten."
+    },
+    "question4": {
+      "question": "Wie sicher sind meine Daten?",
+      "answer": "Wir nehmen die Datensicherheit sehr ernst. Wir verwenden branchenübliche Verschlüsselungs- und Sicherheitsprotokolle, um sicherzustellen, dass Ihre Daten stets geschützt sind."
+    },
+    "question5": {
+      "question": "Kann ich mein Abonnement jederzeit kündigen?",
+      "answer": "Ja, Sie können Ihr Abonnement jederzeit kündigen. Es gibt keine langfristigen Verträge oder Kündigungsgebühren."
+    }
+  },
+  "blog": {
+    "title": "Neueste Nachrichten von unserem Blog",
+    "viewAll": "Alle Beiträge ansehen",
+    "readMore": "Mehr lesen",
+    "post1": {
+      "title": "10 Tipps zur Verbesserung der Teamproduktivität",
+      "excerpt": "Erfahren Sie, wie Sie die Effizienz Ihres Teams mit bewährten Strategien steigern können.",
+      "date": "15. Mai 2023"
+    },
+    "post2": {
+      "title": "Die Zukunft der Fernarbeit: Trends, die man im Auge behalten sollte",
+      "excerpt": "Entdecken Sie die aufkommenden Trends, die die Zukunft der Fernarbeit prägen.",
+      "date": "2. Juni 2023"
+    },
+    "post3": {
+      "title": "Datenanalyse für Unternehmenswachstum meistern",
+      "excerpt": "Erfahren Sie, wie Datenanalysen Ihr Unternehmen voranbringen können.",
+      "date": "18. Juni 2023"
+    },
+    "search": {
+      "placeholder": "Blogbeiträge durchsuchen...",
+      "button": "Suchen"
+    }
+  },
+  "newsletter": {
+    "title": "Bleiben Sie auf dem Laufenden",
+    "description": "Abonnieren Sie unseren Newsletter für die neuesten Updates, Tipps und Sonderangebote.",
+    "placeholder": "Geben Sie Ihre E-Mail-Adresse ein",
+    "cta": "Abonnieren"
+  },
+  "cta": {
+    "title": "Bereit, loszulegen?",
+    "description": "Schließen Sie sich Tausenden zufriedener Benutzer an und steigern Sie Ihre Produktivität.",
+    "cta": "Jetzt registrieren"
+  },
+  "footer": {
+    "saascompany": "SaaS-Unternehmen",
+    "description": "Teams stärken, um mehr zu erreichen mit unserer innovativen SaaS-Lösung.",
+    "product": "Produkt",
+    "company": "Unternehmen",
+    "subscribeTitle": "Abonnieren Sie unseren Newsletter",
+    "subscribePlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
+    "subscribeCta": "Abonnieren",
+    "copyright": "© 2023 SaaS-Unternehmen. Alle Rechte vorbehalten."
+  },
+  "chat": {
+    "title": "Kundensupport",
+    "placeholder": "Geben Sie Ihre Nachricht ein...",
+    "defaultMessage": "Wie können wir Ihnen heute helfen?"
+  },
+  "backToTop": {
+    "ariaLabel": "Zurück nach oben"
+  },
+  "cookieConsent": {
+    "message": "Diese Website verwendet Cookies, um sicherzustellen, dass Sie die beste Erfahrung auf unserer Website machen.",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen"
+  },
+  "parallax": {
+    "title": "Erleben Sie die Zukunft der Arbeit",
+    "description": "Unsere SaaS-Lösung ist darauf ausgelegt, Ihren Arbeitsablauf zu revolutionieren",
+    "backgroundImage": "/parallax-background.jpg"
+  },
+  "progressBar": {
+    "ariaLabel": "Seiten-Scroll-Fortschritt"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Wir sind hier, um Ihnen zu helfen",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "submit": "Absenden",
+    "success": "Vielen Dank, dass Sie uns kontaktiert haben! Wir werden uns in Kürze bei Ihnen melden.",
+    "error":  "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+  }
+}

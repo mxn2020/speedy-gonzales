@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "title": "SaaS Şirketi",
+    "description": "Ekibinizi SaaS Çözümümüzle Güçlendirin"
+  },
+  "header": {
+    "company": "SaaS Şirketi",
+    "features": "Özellikler",
+    "pricing": "Fiyatlandırma",
+    "testimonials": "Referanslar",
+    "contact": "İletişim",
+    "login": "Giriş Yap",
+    "signup": "Kaydol",
+    "lightMode": "Aydınlık Mod",
+    "darkMode": "Karanlık Mod"
+  },
+  "hero": {
+    "title": "Ekibinizi SaaS Çözümümüzle Güçlendirin",
+    "description": "İş akışınızı düzenleyin, verimliliği artırın ve yenilikçi platformumuzla daha fazlasını başarın.",
+    "cta": "Başlayın"
+  },
+  "features": {
+    "title": "Özelliklerimiz",
+    "lightning": {
+      "title": "Yıldırım Hızı",
+      "description": "İş akışınızda benzersiz hız ve verimliliği deneyimleyin."
+    },
+    "secure": {
+      "title": "Güvenli",
+      "description": "Verileriniz en son güvenlik önlemleriyle korunur."
+    },
+    "analytics": {
+      "title": "Analizler",
+      "description": "Güçlü analiz araçlarımızla değerli içgörüler kazanın."
+    },
+    "filter": {
+      "all": "Tüm Özellikler",
+      "productivity": "Verimlilik",
+      "security": "Güvenlik",
+      "analytics": "Analizler"
+    }
+  },
+  "howItWorks": {
+    "title": "Nasıl Çalışır",
+    "step1": {
+      "title": "Kaydolun",
+      "description": "Hesabınızı dakikalar içinde oluşturun"
+    },
+    "step2": {
+      "title": "Ekibinizi Davet Edin",
+      "description": "Meslektaşlarınızla işbirliği yapın"
+    },
+    "step3": {
+      "title": "Analize Başlayın",
+      "description": "Verilerinizden içgörüler elde edin"
+    }
+  },
+  "pricing": {
+    "title": "Planınızı Seçin",
+    "subtitle": "İhtiyaçlarınıza uygun mükemmel planı seçin",
+    "monthly": "Aylık",
+    "annually": "Yıllık",
+    "options": [
+      {
+        "title": "Ücretsiz",
+        "price": {
+          "monthly": 0,
+          "annually": 0
+        },
+        "features": [
+          "Temel özellikler",
+          "En fazla 5 kullanıcı",
+          "1GB depolama"
+        ],
+        "cta": "Başlayın"
+      },
+      {
+        "title": "Başlangıç",
+        "price": {
+          "monthly": 29,
+          "annually": 290
+        },
+        "features": [
+          "Tüm Ücretsiz özellikler",
+          "En fazla 20 kullanıcı",
+          "10GB depolama",
+          "Öncelikli destek"
+        ],
+        "cta": "Başlayın"
+      },
+      {
+        "title": "Pro",
+        "price": {
+          "monthly": 99,
+          "annually": 990
+        },
+        "features": [
+          "Tüm Başlangıç özellikleri",
+          "Sınırsız kullanıcı",
+          "100GB depolama",
+          "Gelişmiş analizler",
+          "7/24 destek"
+        ],
+        "cta": "Başlayın"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Müşterilerimiz Ne Diyor",
+    "testimonial1": {
+      "quote": "Bu SaaS ekibimizin verimliliğini dönüştürdü!",
+      "name": "Jane Doe",
+      "company": "Tech Co"
+    },
+    "testimonial2": {
+      "quote": "Özellikler tam olarak iş akışımız için ihtiyacımız olan şey.",
+      "name": "John Smith",
+      "company": "Startup Inc"
+    },
+    "testimonial3": {
+      "quote": "Müşteri desteği harika. Kesinlikle tavsiye ederim!",
+      "name": "Emily Brown",
+      "company": "Ajans Ltd"
+    }
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "question1": {
+      "question": "SaaS Şirketi nedir?",
+      "answer": "SaaS Şirketi, işletmelere operasyonlarını düzenlemeye, işbirliğini geliştirmeye ve verimliliği artırmaya yardımcı olan bulut tabanlı bir yazılım çözümüdür."
+    },
+    "question2": {
+      "question": "Fiyatlandırma nasıl çalışır?",
+      "answer": "Her büyüklükteki işletmeye uygun esnek fiyatlandırma planları sunuyoruz. Planlarımız, gereken kullanıcı sayısına ve özelliklere dayanmaktadır. Daha fazla bilgi için fiyatlandırma sayfamıza göz atın."
+    },
+    "question3": {
+      "question": "Ücretsiz deneme var mı?",
+      "answer": "Evet, tüm planlarımız için 14 günlük ücretsiz deneme sunuyoruz. Denemeyi başlatmak için kredi kartı gerekmiyor."
+    },
+    "question4": {
+      "question": "Verilerim ne kadar güvenli?",
+      "answer": "Veri güvenliğine çok önem veriyoruz. Verilerinizi her zaman korumak için endüstri standardı şifreleme ve güvenlik protokollerini kullanıyoruz."
+    },
+    "question5": {
+      "question": "Aboneliğimi istediğim zaman iptal edebilir miyim?",
+      "answer": "Evet, aboneliğinizi istediğiniz zaman iptal edebilirsiniz. Uzun vadeli sözleşmeler veya iptal ücretleri yoktur."
+    }
+  },
+  "blog": {
+    "title": "Blogumuzdan Son Haberler",
+    "viewAll": "Tüm Gönderileri Görüntüle",
+    "readMore": "Daha Fazla Oku",
+    "post1": {
+      "title": "Ekip Verimliliğini Artırmak İçin 10 İpucu",
+      "excerpt": "Kanıtlanmış bu stratejilerle ekibinizin verimliliğini nasıl artıracağınızı öğrenin.",
+      "date": "15 Mayıs 2023"
+    },
+    "post2": {
+      "title": "Uzaktan Çalışmanın Geleceği: İzlenecek Trendler",
+      "excerpt": "Uzaktan çalışmanın geleceğini şekillendiren yeni trendleri keşfedin.",
+      "date": "2 Haziran 2023"
+    },
+    "post3": {
+      "title": "İş Büyümesi İçin Veri Analitiğini Ustalaştırma",
+      "excerpt": "Veri analitiğinin işinizi nasıl ileriye taşıyabileceğini keşfedin.",
+      "date": "18 Haziran 2023"
+    },
+    "search": {
+      "placeholder": "Blog gönderilerini ara...",
+      "button": "Ara"
+    }
+  },
+  "newsletter": {
+    "title": "Güncel Kalın",
+    "description": "Son güncellemeler, ipuçları ve özel tekliflerden haberdar olmak için bültenimize abone olun.",
+    "placeholder": "E-postanızı girin",
+    "cta": "Abone Ol"
+  },
+  "cta": {
+    "title": "Başlamaya Hazır mısınız?",
+    "description": "Memnun kalan binlerce kullanıcıya katılın ve verimliliğinizi bir üst seviyeye taşıyın.",
+    "cta": "Şimdi Kaydolun"
+  },
+  "footer": {
+    "saascompany": "SaaS Şirketi",
+    "description": "Yenilikçi SaaS çözümümüzle daha fazlasını başarmak için ekipleri güçlendiriyoruz.",
+    "product": "Ürün",
+    "company": "Şirket",
+    "subscribeTitle": "Bültenimize abone olun",
+    "subscribePlaceholder": "E-postanızı girin",
+    "subscribeCta": "Abone Ol",
+    "copyright": "© 2023 SaaS Şirketi. Tüm hakları saklıdır."
+  },
+  "chat": {
+    "title": "Müşteri Desteği",
+    "placeholder": "Mesajınızı yazın...",
+    "defaultMessage": "Size bugün nasıl yardımcı olabiliriz?"
+  },
+  "backToTop": {
+    "ariaLabel": "Yukarı dön"
+  },
+  "cookieConsent": {
+    "message": "Bu web sitesi, web sitemizde en iyi deneyimi yaşamanızı sağlamak için çerezleri kullanır.",
+    "accept": "Kabul et",
+    "decline": "Reddet"
+  },
+  "parallax": {
+    "title": "Çalışmanın Geleceğini Deneyimleyin",
+    "description": "SaaS çözümümüz, iş akışınızı devrim yaratmak için tasarlanmıştır",
+    "backgroundImage": "/parallax-background.jpg"
+  },
+  "progressBar": {
+    "ariaLabel": "Sayfa kaydırma ilerlemesi"
+  },
+  "contact": {
+    "title": "Bize Ulaşın",
+    "subtitle": "Size yardım etmek için buradayız",
+    "name": "İsim",
+    "email": "E-posta",
+    "message": "Mesaj",
+    "submit": "Gönder",
+    "success": "Bizimle iletişime geçtiğiniz için teşekkür ederiz! En kısa sürede size geri döneceğiz.",
+    "error":  "Bir hata oluştu. Lütfen tekrar deneyin."
+  }
+}

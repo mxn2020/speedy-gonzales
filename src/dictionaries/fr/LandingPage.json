@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "title": "Entreprise SaaS",
+    "description": "Renforcez votre équipe avec notre solution SaaS"
+  },
+  "header": {
+    "company": "Entreprise SaaS",
+    "features": "Fonctionnalités",
+    "pricing": "Tarification",
+    "testimonials": "Témoignages",
+    "contact": "Contact",
+    "login": "Se connecter",
+    "signup": "S'inscrire",
+    "lightMode": "Mode Clair",
+    "darkMode": "Mode Sombre"
+  },
+  "hero": {
+    "title": "Renforcez votre équipe avec notre solution SaaS",
+    "description": "Rationalisez votre flux de travail, boostez la productivité et atteignez plus avec notre plateforme innovante.",
+    "cta": "Commencer"
+  },
+  "features": {
+    "title": "Nos Fonctionnalités",
+    "lightning": {
+      "title": "Ultra Rapide",
+      "description": "Découvrez une vitesse et une efficacité inégalées dans votre flux de travail."
+    },
+    "secure": {
+      "title": "Sécurisé",
+      "description": "Vos données sont protégées par des mesures de sécurité de pointe."
+    },
+    "analytics": {
+      "title": "Analyses",
+      "description": "Obtenez des informations précieuses grâce à nos puissants outils d'analyse."
+    },
+    "filter": {
+      "all": "Toutes les Fonctionnalités",
+      "productivity": "Productivité",
+      "security": "Sécurité",
+      "analytics": "Analyses"
+    }
+  },
+  "howItWorks": {
+    "title": "Comment ça Marche",
+    "step1": {
+      "title": "Inscription",
+      "description": "Créez votre compte en quelques minutes"
+    },
+    "step2": {
+      "title": "Invitez Votre Équipe",
+      "description": "Collaborez avec vos collègues"
+    },
+    "step3": {
+      "title": "Commencez l'Analyse",
+      "description": "Obtenez des informations de vos données"
+    }
+  },
+  "pricing": {
+    "title": "Choisissez Votre Forfait",
+    "subtitle": "Sélectionnez le forfait parfait pour vos besoins",
+    "monthly": "Mensuel",
+    "annually": "Annuel",
+    "options": [
+      {
+        "title": "Gratuit",
+        "price": {
+          "monthly": 0,
+          "annually": 0
+        },
+        "features": [
+          "Fonctionnalités de base",
+          "Jusqu'à 5 utilisateurs",
+          "1 Go de stockage"
+        ],
+        "cta": "Commencer"
+      },
+      {
+        "title": "Débutant",
+        "price": {
+          "monthly": 29,
+          "annually": 290
+        },
+        "features": [
+          "Toutes les fonctionnalités gratuites",
+          "Jusqu'à 20 utilisateurs",
+          "10 Go de stockage",
+          "Support prioritaire"
+        ],
+        "cta": "Commencer"
+      },
+      {
+        "title": "Pro",
+        "price": {
+          "monthly": 99,
+          "annually": 990
+        },
+        "features": [
+          "Toutes les fonctionnalités du forfait Débutant",
+          "Utilisateurs illimités",
+          "100 Go de stockage",
+          "Analyses avancées",
+          "Support 24/7"
+        ],
+        "cta": "Commencer"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Ce Que Disent Nos Clients",
+    "testimonial1": {
+      "quote": "Ce SaaS a transformé la productivité de notre équipe !",
+      "name": "Jane Doe",
+      "company": "Tech Co"
+    },
+    "testimonial2": {
+      "quote": "Les fonctionnalités sont exactement ce dont nous avions besoin pour notre flux de travail.",
+      "name": "John Smith",
+      "company": "Startup Inc"
+    },
+    "testimonial3": {
+      "quote": "Le support client est excellent. Hautement recommandé !",
+      "name": "Emily Brown",
+      "company": "Agence SARL"
+    }
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "question1": {
+      "question": "Qu'est-ce que l'Entreprise SaaS ?",
+      "answer": "L'Entreprise SaaS est une solution logicielle basée sur le cloud qui aide les entreprises à rationaliser leurs opérations, à améliorer la collaboration et à augmenter la productivité."
+    },
+    "question2": {
+      "question": "Comment fonctionne la tarification ?",
+      "answer": "Nous offrons des plans de tarification flexibles pour répondre aux besoins des entreprises de toutes tailles. Nos plans sont basés sur le nombre d'utilisateurs et les fonctionnalités requises. Consultez notre page de tarification pour plus de détails."
+    },
+    "question3": {
+      "question": "Y a-t-il un essai gratuit disponible ?",
+      "answer": "Oui, nous offrons un essai gratuit de 14 jours pour tous nos plans. Aucune carte de crédit n'est requise pour commencer votre essai."
+    },
+    "question4": {
+      "question": "Mes données sont-elles sécurisées ?",
+      "answer": "Nous prenons la sécurité des données très au sérieux. Nous utilisons le cryptage et les protocoles de sécurité standard de l'industrie pour garantir que vos données sont toujours protégées."
+    },
+    "question5": {
+      "question": "Puis-je annuler mon abonnement à tout moment ?",
+      "answer": "Oui, vous pouvez annuler votre abonnement à tout moment. Il n'y a pas de contrats à long terme ni de frais d'annulation."
+    }
+  },
+  "blog": {
+    "title": "Les Dernières Nouvelles de Notre Blog",
+    "viewAll": "Voir Tous les Articles",
+    "readMore": "Lire la Suite",
+    "post1": {
+      "title": "10 Conseils pour Améliorer la Productivité de l'Équipe",
+      "excerpt": "Découvrez comment augmenter l'efficacité de votre équipe avec ces stratégies éprouvées.",
+      "date": "15 mai 2023"
+    },
+    "post2": {
+      "title": "L'Avenir du Travail à Distance : Tendances à Surveiller",
+      "excerpt": "Découvrez les tendances émergentes qui façonnent l'avenir du travail à distance.",
+      "date": "2 juin 2023"
+    },
+    "post3": {
+      "title": "Maîtriser l'Analyse des Données pour la Croissance des Entreprises",
+      "excerpt": "Découvrez comment l'analyse des données peut propulser votre entreprise.",
+      "date": "18 juin 2023"
+    },
+    "search": {
+      "placeholder": "Rechercher dans les articles du blog...",
+      "button": "Rechercher"
+    }
+  },
+  "newsletter": {
+    "title": "Restez Informé",
+    "description": "Abonnez-vous à notre newsletter pour les dernières mises à jour, conseils et offres spéciales.",
+    "placeholder": "Entrez votre e-mail",
+    "cta": "S'abonner"
+  },
+  "cta": {
+    "title": "Prêt à Commencer ?",
+    "description": "Rejoignez des milliers d'utilisateurs satisfaits et faites passer votre productivité au niveau supérieur.",
+    "cta": "Inscrivez-vous Maintenant"
+  },
+  "footer": {
+    "saascompany": "Entreprise SaaS",
+    "description": "Renforcer les équipes pour accomplir plus grâce à notre solution SaaS innovante.",
+    "product": "Produit",
+    "company": "Entreprise",
+    "subscribeTitle": "Abonnez-vous à notre newsletter",
+    "subscribePlaceholder": "Entrez votre e-mail",
+    "subscribeCta": "S'abonner",
+    "copyright": "© 2023 Entreprise SaaS. Tous droits réservés."
+  },
+  "chat": {
+    "title": "Support Client",
+    "placeholder": "Tapez votre message...",
+    "defaultMessage": "Comment pouvons-nous vous aider aujourd'hui ?"
+  },
+  "backToTop": {
+    "ariaLabel": "Retour en haut"
+  },
+  "cookieConsent": {
+    "message": "Ce site web utilise des cookies pour vous garantir la meilleure expérience sur notre site.",
+    "accept": "Accepter",
+    "decline": "Refuser"
+  },
+  "parallax": {
+    "title": "Découvrez l'Avenir du Travail",
+    "description": "Notre solution SaaS est conçue pour révolutionner votre flux de travail",
+    "backgroundImage": "/parallax-background.jpg"
+  },
+  "progressBar": {
+    "ariaLabel": "Progression du défilement de la page"
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Nous sommes là pour vous aider",
+    "name": "Nom",
+    "email": "E-mail",
+    "message": "Message",
+    "submit": "Envoyer",
+    "success": "Merci de nous avoir contactés ! Nous vous répondrons sous peu.",
+    "error":  "Une erreur est survenue. Veuillez réessayer."
+  }
+}

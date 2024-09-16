@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "title": "SaaS公司",
+    "description": "用我们的SaaS解决方案增强您的团队"
+  },
+  "header": {
+    "company": "SaaS公司",
+    "features": "功能",
+    "pricing": "价格",
+    "testimonials": "客户评价",
+    "contact": "联系我们",
+    "login": "登录",
+    "signup": "注册",
+    "lightMode": "浅色模式",
+    "darkMode": "深色模式"
+  },
+  "hero": {
+    "title": "用我们的SaaS解决方案增强您的团队",
+    "description": "简化您的工作流程，提高生产力，通过我们的创新平台实现更多。",
+    "cta": "开始使用"
+  },
+  "features": {
+    "title": "我们的功能",
+    "lightning": {
+      "title": "闪电般快速",
+      "description": "在您的工作流程中体验无与伦比的速度和效率。"
+    },
+    "secure": {
+      "title": "安全",
+      "description": "您的数据受到最先进的安全措施保护。"
+    },
+    "analytics": {
+      "title": "分析",
+      "description": "通过我们强大的分析工具获得有价值的见解。"
+    },
+    "filter": {
+      "all": "所有功能",
+      "productivity": "生产力",
+      "security": "安全",
+      "analytics": "分析"
+    }
+  },
+  "howItWorks": {
+    "title": "如何运作",
+    "step1": {
+      "title": "注册",
+      "description": "几分钟内创建您的账户"
+    },
+    "step2": {
+      "title": "邀请您的团队",
+      "description": "与您的同事协作"
+    },
+    "step3": {
+      "title": "开始分析",
+      "description": "从您的数据中获得见解"
+    }
+  },
+  "pricing": {
+    "title": "选择您的计划",
+    "subtitle": "选择适合您需求的完美计划",
+    "monthly": "每月",
+    "annually": "每年",
+    "options": [
+      {
+        "title": "免费",
+        "price": {
+          "monthly": 0,
+          "annually": 0
+        },
+        "features": [
+          "基本功能",
+          "最多5个用户",
+          "1GB存储空间"
+        ],
+        "cta": "开始使用"
+      },
+      {
+        "title": "入门版",
+        "price": {
+          "monthly": 29,
+          "annually": 290
+        },
+        "features": [
+          "所有免费功能",
+          "最多20个用户",
+          "10GB存储空间",
+          "优先支持"
+        ],
+        "cta": "开始使用"
+      },
+      {
+        "title": "专业版",
+        "price": {
+          "monthly": 99,
+          "annually": 990
+        },
+        "features": [
+          "所有入门版功能",
+          "无限用户",
+          "100GB存储空间",
+          "高级分析",
+          "24/7支持"
+        ],
+        "cta": "开始使用"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "客户评价",
+    "testimonial1": {
+      "quote": "这个SaaS改变了我们团队的生产力！",
+      "name": "简·多伊",
+      "company": "科技公司"
+    },
+    "testimonial2": {
+      "quote": "这些功能正是我们工作流程所需要的。",
+      "name": "约翰·史密斯",
+      "company": "初创公司"
+    },
+    "testimonial3": {
+      "quote": "客户支持一流。强烈推荐！",
+      "name": "艾米丽·布朗",
+      "company": "代理有限公司"
+    }
+  },
+  "faq": {
+    "title": "常见问题",
+    "question1": {
+      "question": "什么是SaaS公司？",
+      "answer": "SaaS公司是一种基于云的软件解决方案，帮助企业简化操作，改善协作并提高生产力。"
+    },
+    "question2": {
+      "question": "价格如何运作？",
+      "answer": "我们提供灵活的价格计划，以适应各类企业的规模。我们的计划基于所需用户数量和功能。查看我们的价格页面了解更多细节。"
+    },
+    "question3": {
+      "question": "是否有免费试用？",
+      "answer": "是的，我们为所有计划提供14天的免费试用。不需要信用卡即可开始试用。"
+    },
+    "question4": {
+      "question": "我的数据有多安全？",
+      "answer": "我们非常重视数据安全。我们使用行业标准的加密和安全协议，确保您的数据始终受到保护。"
+    },
+    "question5": {
+      "question": "我可以随时取消订阅吗？",
+      "answer": "是的，您可以随时取消订阅。没有长期合同或取消费用。"
+    }
+  },
+  "blog": {
+    "title": "来自我们博客的最新消息",
+    "viewAll": "查看所有帖子",
+    "readMore": "阅读更多",
+    "post1": {
+      "title": "提高团队生产力的10个技巧",
+      "excerpt": "了解如何通过这些经过验证的策略来提高团队的效率。",
+      "date": "2023年5月15日"
+    },
+    "post2": {
+      "title": "远程工作的未来：值得关注的趋势",
+      "excerpt": "发现塑造远程工作未来的新兴趋势。",
+      "date": "2023年6月2日"
+    },
+    "post3": {
+      "title": "掌握数据分析以推动业务增长",
+      "excerpt": "探索数据分析如何推动您的业务前进。",
+      "date": "2023年6月18日"
+    },
+    "search": {
+      "placeholder": "搜索博客文章...",
+      "button": "搜索"
+    }
+  },
+  "newsletter": {
+    "title": "保持更新",
+    "description": "订阅我们的新闻通讯，以获取最新更新、提示和特别优惠。",
+    "placeholder": "输入您的电子邮箱",
+    "cta": "订阅"
+  },
+  "cta": {
+    "title": "准备好开始了吗？",
+    "description": "加入数千名满意的用户，将您的生产力提升到新的水平。",
+    "cta": "立即注册"
+  },
+  "footer": {
+    "saascompany": "SaaS公司",
+    "description": "通过我们创新的SaaS解决方案增强团队的能力，以实现更多。",
+    "product": "产品",
+    "company": "公司",
+    "subscribeTitle": "订阅我们的新闻通讯",
+    "subscribePlaceholder": "输入您的电子邮箱",
+    "subscribeCta": "订阅",
+    "copyright": "© 2023 SaaS公司。版权所有。"
+  },
+  "chat": {
+    "title": "客户支持",
+    "placeholder": "输入您的消息...",
+    "defaultMessage": "我们今天如何帮助您？"
+  },
+  "backToTop": {
+    "ariaLabel": "返回顶部"
+  },
+  "cookieConsent": {
+    "message": "本网站使用cookies以确保您在我们的网站上获得最佳体验。",
+    "accept": "接受",
+    "decline": "拒绝"
+  },
+  "parallax": {
+    "title": "体验工作的未来",
+    "description": "我们的SaaS解决方案旨在彻底改变您的工作流程",
+    "backgroundImage": "/parallax-background.jpg"
+  },
+  "progressBar": {
+    "ariaLabel": "页面滚动进度"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "我们在这里为您提供帮助",
+    "name": "姓名",
+    "email": "电子邮箱",
+    "message": "消息",
+    "submit": "提交",
+    "success": "感谢您的联系！我们会尽快回复您。",
+    "error": "发生错误。请再试一次。"
+  }
+}

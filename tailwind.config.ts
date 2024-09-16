@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  darkMode: 'class',
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,12 +9,28 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        'custom': '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+      },
+      width: {
+        'custom-600': '600px',
+      },
+      height: {
+        'custom-450': '450px',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      textAlign: {
+        start: 'start',
+        end: 'end',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-logical'),
+  ],
 };
+
 export default config;
